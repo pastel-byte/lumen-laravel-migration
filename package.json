@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "fs-extra": "^11.2.0",
+    "progress-stream": "^2.0.0",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.8.2",
+    "@types/progress-stream": "^2.0.5",
+    "@types/shelljs": "^0.8.15",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
